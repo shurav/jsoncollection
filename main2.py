@@ -19,5 +19,8 @@ a = {
             ]
         }
 print(json.dumps(a, indent = 3, sort_keys = False, separators = ("-- ", "== ")))
-with open("people.json", "w") as f:
-    f.write(json.dumps(a, indent = 3, sort_keys = False, separators = ("-- ", "== ")))
+"""with open("people.json", "w") as f:
+    f.write(json.dumps(a, indent = 3, sort_keys = False, separators = ("-- ", "== ")))"""
+with open("people.json", "r") as f:
+    new = json.loads(f.read())
+print(new)
