@@ -1,3 +1,3 @@
 # json
-/Users/shuravnandy/Downloads/download.jpeg
+![My Image](download.jpeg)
 practice with json methods
