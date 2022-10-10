@@ -15,5 +15,19 @@
          "age": 25,
          "height": 5.75
       }
+   ],
+   "networths": [
+      {
+         "name": "john",
+         "nw": 200000
+      },
+      {
+         "name": "eric",
+         "nw": 60000
+      },
+      {
+         "name": "will",
+         "nw": 90000
+      }
    ]
 }
