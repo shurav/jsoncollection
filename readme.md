@@ -9,4 +9,6 @@ this json tutorial displays a database of people with their attributes
   src="https://cdn.corporatefinanceinstitute.com/assets/database-1024x703.jpeg"
   alt="Alt text"
   title=""
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px"
+  height = "100"
+  width = "100">
