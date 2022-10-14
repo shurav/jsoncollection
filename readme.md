@@ -5,9 +5,8 @@ this json tutorial displays a database of people with their attributes
   alt="Alt text"
   title="json logo"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
-this json tutorial displays a database of people with their attributes
 <img
   src="https://cdn.corporatefinanceinstitute.com/assets/database-1024x703.jpeg"
   alt="Alt text"
   title=""
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
