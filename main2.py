@@ -41,9 +41,28 @@ new["networths"] = [
                 "nw" : 90*10**3
             }
             ]
-with open("people.json", "w") as g:
-    g.write(json.dumps(new, indent = 3))
-with open("people.json", "r") as g:
-    includeNet = json.loads(g.read())
+g = open("people.json", "w")
+g.write(json.dumps(new, indent = 3))
+g = open("people.json", "r")
+includeNet = json.loads(g.read())
 g.close()
 print(includeNet)
+h = open("people.json", "w")
+new["hometowns"] = [
+    {
+        "name" : "john",
+        "hometown" : "ny"
+    },
+    {
+        "name" : "eric",
+        "hometown" : "la"
+    },
+    {
+        "name" : "will",
+        "hometown" : "sioux falls"
+    }
+    ]
+h.write(json.dumps(obj = new, indent = 3))
+h = open("people.json", "r")
+print(json.loads(s = h.read())["hometowns"])
+h.close()

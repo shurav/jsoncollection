@@ -29,5 +29,19 @@
          "name": "will",
          "nw": 90000
       }
+   ],
+   "hometowns": [
+      {
+         "name": "john",
+         "hometown": "ny"
+      },
+      {
+         "name": "eric",
+         "hometown": "la"
+      },
+      {
+         "name": "will",
+         "hometown": "sioux falls"
+      }
    ]
 }
