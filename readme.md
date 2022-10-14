@@ -10,5 +10,5 @@ this json tutorial displays a database of people with their attributes
   alt="Alt text"
   title=""
   style="display: inline-block; margin: 0 auto; max-width: 100px"
-  height = "300"
-  width = "100">
+  height = "200"
+  width = "200">
