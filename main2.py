@@ -67,9 +67,12 @@ h = open("people.json", "r")
 print(json.loads(s = h.read())["hometowns"])
 h.close()
 i = open("people.json", "w")
-new["people"][0]["hasSSN"] = True
-new["people"][1]["hasSSN"] = True
-new["people"][2]["hasSSN"] = False
+for z in new:
+    for j in range(len(new["people"])):
+        if(new["people"][j]["name"] == "will"):
+            new["people"][j]["hasSSN"] = False
+            break
+        new["people"][j]["hasSSN"] = True
 print(new)
 i.write(json.dumps(obj = new, indent = 3))
 i.close()
