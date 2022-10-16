@@ -66,3 +66,10 @@ h.write(json.dumps(obj = new, indent = 3))
 h = open("people.json", "r")
 print(json.loads(s = h.read())["hometowns"])
 h.close()
+i = open("people.json", "w")
+new["people"][0]["hasSSN"] = True
+new["people"][1]["hasSSN"] = True
+new["people"][2]["hasSSN"] = False
+print(new)
+i.write(json.dumps(obj = new, indent = 3))
+i.close()

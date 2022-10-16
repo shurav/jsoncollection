@@ -3,17 +3,20 @@
       {
          "name": "john",
          "age": 23,
-         "height": 6.833333333333333
+         "height": 6.833333333333333,
+         "hasSSN": true
       },
       {
          "name": "eric",
          "age": 31,
-         "height": 6
+         "height": 6,
+         "hasSSN": true
       },
       {
          "name": "will",
          "age": 25,
-         "height": 5.75
+         "height": 5.75,
+         "hasSSN": false
       }
    ],
    "networths": [
